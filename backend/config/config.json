@@ -2,21 +2,21 @@
   "development": {
     "username": "dictionary_mg4l_user",
     "password": "UF2faIxj8fmlBFqPtJuOL9iINW5AWFi5",
-    "database": "dictionary_mg4l_user",
+    "database": "dictionary_mg4l",
     "host": "dpg-cuitpgggph6c73afs0og-a",
     "dialect": "postgres"
   },
   "test": {
     "username": "dictionary_mg4l_user",
     "password": "UF2faIxj8fmlBFqPtJuOL9iINW5AWFi5",
-    "database": "dictionary_mg4l_user",
+    "database": "dictionary_mg4l",
     "host": "dpg-cuitpgggph6c73afs0og-a",
     "dialect": "postgres"
   },
   "production": {
     "username": "dictionary_mg4l_user",
     "password": "UF2faIxj8fmlBFqPtJuOL9iINW5AWFi5",
-    "database": "dictionary_mg4l_user",
+    "database": "dictionary_mg4l",
     "host": "dpg-cuitpgggph6c73afs0og-a",
     "dialect": "postgres"
   }
