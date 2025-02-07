@@ -1,0 +1,21 @@
+# Node.js зависимости
+node_modules/
+
+# Логи и временные файлы
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+*.log
+
+# Переменные окружения
+.env
+
+# Папка с production-сборкой (если ты используешь сборщик типа Webpack)
+dist/
+build/
+
+# IDE/Editor файлы
+.vscode/
+.idea/
+.DS_Store
