@@ -1,9 +1,9 @@
 import { useState, useEffect } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import Dictionary from "./pages/Dictionary";
 import Favorites from "./pages/Favorites";
-import Navbar from "./components/Navbar";
 import Flashcards from "./pages/Flashcards"; // Новый импорт
 
 const App = () => {

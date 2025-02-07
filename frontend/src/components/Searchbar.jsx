@@ -36,7 +36,7 @@ const SearchBar = ({ onSelectExpression }) => {
 
       {/* Блок с подсказками */}
       {suggestions.length > 0 && (
-        <ul className="absolute left-0 right-0 bg-white border rounded shadow-lg mt-1 z-10">
+        <ul className="absolute left-0 right-0 bg-white border rounded shadow-lg mt-1">
           {suggestions.map((exp) => (
             <li
               key={exp.id}
