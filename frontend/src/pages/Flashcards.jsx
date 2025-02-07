@@ -9,7 +9,7 @@ const Flashcards = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get("http://localhost:5000/api/expressions");
+        const response = await axios.get("https://dictionaryapi-wwbi.onrender.com/api/expressions");
         setExpressions(response.data);
       } catch (error) {
         console.error("Ошибка загрузки данных:", error);

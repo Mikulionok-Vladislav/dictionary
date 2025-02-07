@@ -1,23 +1,23 @@
 {
   "development": {
-    "username": "postgres",
-    "password": "7355608",
-    "database": "dictionary",
-    "host": "127.0.0.1",
+    "username": "dictionary_mg4l_user",
+    "password": "UF2faIxj8fmlBFqPtJuOL9iINW5AWFi5",
+    "database": "dictionary_mg4l_user",
+    "host": "dpg-cuitpgggph6c73afs0og-a",
     "dialect": "postgres"
   },
   "test": {
-    "username": "postgres",
-    "password": "7355608",
-    "database": "dictionary",
-    "host": "127.0.0.1",
+    "username": "dictionary_mg4l_user",
+    "password": "UF2faIxj8fmlBFqPtJuOL9iINW5AWFi5",
+    "database": "dictionary_mg4l_user",
+    "host": "dpg-cuitpgggph6c73afs0og-a",
     "dialect": "postgres"
   },
   "production": {
-    "username": "postgres",
-    "password": "7355608",
-    "database": "dictionary",
-    "host": "127.0.0.1",
+    "username": "dictionary_mg4l_user",
+    "password": "UF2faIxj8fmlBFqPtJuOL9iINW5AWFi5",
+    "database": "dictionary_mg4l_user",
+    "host": "dpg-cuitpgggph6c73afs0og-a",
     "dialect": "postgres"
   }
 }

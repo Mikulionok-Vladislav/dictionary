@@ -15,7 +15,7 @@ const SearchBar = ({ onSelectExpression }) => {
 
     try {
       //   const response = await fetch(`http://localhost:5000/api/expressions?query=${encodeURIComponent(input)}`);
-      const response = await fetch(`http://localhost:5000/api/expressions/search?query=${encodeURIComponent(input)}`);
+      const response = await fetch(`https://dictionaryapi-wwbi.onrender.com/api/expressions/search?query=${encodeURIComponent(input)}`);
 
       const data = await response.json();
       setSuggestions(data); // Сохраняем только найденные выражения

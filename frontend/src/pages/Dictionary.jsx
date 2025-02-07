@@ -14,7 +14,7 @@ const Dictionary = () => {
   useEffect(() => {
     const fetchData = async () => {
       const response = await axios.get(
-        `http://localhost:5000/api/expressions?page=${page}&limit=${limit}`
+        `https://dictionaryapi-wwbi.onrender.com/api/expressions?page=${page}&limit=${limit}`
       );
       setExpressions(response.data);
 
