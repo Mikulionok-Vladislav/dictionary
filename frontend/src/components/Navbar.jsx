@@ -6,7 +6,7 @@ const Navbar = ({ toggleTheme, theme }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className={`p-4 shadow-md transition-colors duration-300 ${theme === "dark" ? "bg-gray-900 text-white" : "bg-gray-100 text-gray-900"}`}>
+    <nav className={`p-4 shadow-md transition-colors duration-300 ${theme === "dark" ? "bg-gray-900 text-white" : "bg-gray-100 text-gray-900"} z-20`}>
       <div className="container mx-auto flex justify-between items-center relative">
         <Link to="/" className="text-xl font-bold">
           📖 Dictionary App
